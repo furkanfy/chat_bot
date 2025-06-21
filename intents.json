@@ -1,0 +1,72 @@
+{
+    "intents": [
+        {
+            "tag": "selam",
+            "patterns": [
+                "Merhaba",
+                "Selam",
+                "Nasılsın?",
+                "Günaydın",
+                "İyi akşamlar"
+            ],
+            "responses": [
+                "Merhaba, hoş geldin!",
+                "Selam! Sana nasıl yardımcı olabilirim?",
+                "Günaydın!"
+            ]
+        },
+        {
+            "tag": "veda",
+            "patterns": [
+                "Görüşürüz",
+                "Hoşçakal",
+                "Bay bay",
+                "Kendine iyi bak"
+            ],
+            "responses": [
+                "Görüşmek üzere!",
+                "Hoşçakal!",
+                "Kendine iyi bak!"
+            ]
+        },
+        {
+            "tag": "teşekkür",
+            "patterns": [
+                "Teşekkür ederim",
+                "Sağ ol",
+                "Çok teşekkürler"
+            ],
+            "responses": [
+                "Rica ederim!",
+                "Ne demek!",
+                "Her zaman yardımcı olmaktan mutluyum."
+            ]
+        },
+        {
+            "tag": "hava",
+            "patterns": [
+                "Bugün hava nasıl?",
+                "Yağmur yağacak mı?",
+                "Hava durumu ne?",
+                "Hava sıcak mı?"
+            ],
+            "responses": [
+                "Hava durumu bilgim yok ama umarım güneşlidir!",
+                "Bunu bilmiyorum ama dışarı çıkmadan kontrol etmeyi unutma."
+            ]
+        },
+        {
+            "tag": "yardım",
+            "patterns": [
+                "Yardım eder misin?",
+                "Yardım lazım",
+                "Nasıl kullanılır?",
+                "Destek verir misin?"
+            ],
+            "responses": [
+                "Tabii ki! Ne konuda yardımcı olabilirim?",
+                "Yardımcı olmak için buradayım!"
+            ]
+        }
+    ]
+}
